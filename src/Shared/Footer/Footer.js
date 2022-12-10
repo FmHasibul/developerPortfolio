@@ -4,11 +4,11 @@ const Footer = () => {
     return (
         <div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500">example@email.com</a>
+                <a className="text-indigo-500">fmhhasan@gmail.com</a>
                 <p className="leading-normal my-5">
-                    49 Smith St.
+                    Barishal,Bangladesh
                     <br />
-                    Saint Cloud, MN 56301
+                    +8801760085053
                 </p>
                 <span className="inline-flex">
                     <a className="text-gray-500">

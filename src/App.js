@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Homebanner />
       <Skills />
-      <Project />
+      {/* <Project /> */}
       <ContactMe />
       <Footer />
     </div>

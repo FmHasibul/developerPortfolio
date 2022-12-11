@@ -1,11 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const menuitems = <>
         <li>
-            <a href='#Experience' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
-                Experience
-            </a>
+            <Link to='/blog' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
+                Blog
+            </Link>
+        </li>
+        <li>
+            <Link to='/about' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
+                About
+            </Link>
         </li>
         <li>
             <a href='#Projects' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
@@ -13,12 +19,12 @@ const Header = () => {
             </a>
         </li>
         <li>
-            <a href='#Skill' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
-                Skill
+            <a href='#Skills' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
+                Skills
             </a>
         </li>
         <li>
-            <a href='#contact' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
+            <a href='#contactMe' className='py-1  hover:bg-gray focus:bg-gray rounded-lg'>
                 Contact
             </a>
         </li>

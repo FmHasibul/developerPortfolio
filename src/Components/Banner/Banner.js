@@ -1,8 +1,9 @@
 import React from 'react';
+
 import bannerImg from '../../asset/undraw_freelancer_re_irh4.svg'
 import Typewriter from "typewriter-effect";
 
-const Homebanner = () => {
+const Banner = () => {
     return (
         <div>
             <div>
@@ -41,4 +42,4 @@ const Homebanner = () => {
     );
 };
 
-export default Homebanner;
+export default Banner;
